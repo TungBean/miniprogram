@@ -1,0 +1,31 @@
+/* pages/index/index.wxss */
+.item{
+  margin:20rpx 20rpx 0;
+  font-size: 30rpx;
+  background: #fff;
+  box-shadow: 5rpx 5rpx 10rpx #ddd;
+  border-radius: 10rpx;
+  position: relative;
+  overflow: hidden;
+}
+.item-tag{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgb(0, 216, 160);
+  color: #fff;
+  padding:5rpx 15rpx 10rpx;
+  border-radius: 10rpx 0 0 0;
+}
+.fb{
+  font-weight: bold;
+  color: #000;
+}
+.row{
+  padding: 10rpx 15px;
+}
+.link{
+  color: blue;
+  word-break:break-all;
+  word-wrap:break-word;
+}

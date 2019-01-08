@@ -1,0 +1,20 @@
+/* pages/translate/translate.wxss */
+.inp{
+  padding: 30rpx;
+}
+.inp input{
+  background: #fff;
+  padding: 20rpx;
+}
+.cnt{
+  background: #fff;
+  margin: 0 30rpx 30rpx;
+  padding: 20rpx;
+  word-wrap: break-word;
+  letter-spacing: 4rpx;
+}
+.cnt::before{
+  content: "翻译结果:";
+  color: #888;
+  padding-bottom: 30rpx;
+}

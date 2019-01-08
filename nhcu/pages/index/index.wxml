@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view wx:for="{{data}}" wx:key="dd" class='item'>
+  <block wx:if="{{item.cover}}">
+    <view class='item-tag'>R</view>
+    <image src='{{item.pic_index}}' mode='widthFix' style='width:80%;' class='row'></image>
+  </block>
+  <view class='row' style='padding-top:20rpx'><text class='fb'>日期：</text>{{item.year}}年</view>
+  <!-- <view class='row link'><text class='fb'>百科链接：</text>{{item.link}}</view> -->
+  <view class='row'><text class='fb'>标题：</text>{{item.title}}</view>
+  <view class='row' style='padding-bottom:35rpx'><text class='fb'>简介：</text>{{item.desc}}</view>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/web/web.wxml-->
+<web-view url="https://tan520.com/" bindload="L" binderror="E"></web-view>

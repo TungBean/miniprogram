@@ -1,0 +1,9 @@
+<!--pages/translate/translate.wxml-->
+<view class='container'>
+  <view class='inp'>
+    <input type = "text" placeholder='输入翻译内容' bindconfirm = "getText"></input>
+  </view>
+  <view class='cnt'>
+    <text>\n</text>{{result}}
+  </view>
+</view>
